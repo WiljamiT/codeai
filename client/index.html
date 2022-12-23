@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EsaMattiAI - Future Is Now</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="header">
+      <h2>EsaMatti AI</h3>
+      <img src="./assets/favicon.ico" alt="icon"/>
+      
+    </div>
+    <div id="infos">
+      <p>Start by saying hello, asking a question or pasting a code. <br><br> For example, by writing <i>"Hello!"</i> or <i>"Hei!"</i>.<br>
+        You can also ask questions related to code or programs etc, e.g. <i>"Whats the difference between Vue and React"</i>, 
+        <i>"What is a for loop in python"</i>, 
+        <i>"Osaatko Suomea?"</i>
+        <br> You can also ask unrelated questions such as. <i>"Kuka on Mika Rasi?" </i> <b>ATTENTTION!</b> In this case the answer may not strike true
+
+    </p>
+    </div>
+    <div id="app">
+      <div id="chat_container"></div>
+      <form>
+        <textarea name="prompt" rows="1" cols="1" placeholder="Kysy jotain..."></textarea>
+        <button type="submit"><img src="assets/send.svg" alt="buttonSvg"></button>
+      </form>
+      <div id="footer">
+        <p>This app is <b>WORK IN PROGRESS</b>!</p>
+      </div>
+    </div>
+    
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
